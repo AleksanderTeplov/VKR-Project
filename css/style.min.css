@@ -1044,6 +1044,41 @@ body.theme-dark .main__form-file-image {
 body.theme-dark .main__form-checkbox::before, body.theme-dark .main__form-checkbox:checked::after {
   border-color: #aaa;
 }
+body.theme-dark .burger-menu {
+  background-color: #202027;
+  box-shadow: none;
+  border-left: 1px solid #4d4d4d;
+}
+body.theme-dark .burger-menu__link {
+  color: #c0c0c0;
+}
+@media (min-width:767px) {
+  body.theme-dark .burger-menu__link:hover {
+    color: #fff;
+  }
+}
+body.theme-dark .burger-menu .header__bottom-setting,
+body.theme-dark .burger-menu .header__bottom-theme--select {
+  color: #c0c0c0;
+}
+body.theme-dark .burger-menu .header__bottom-setting option,
+body.theme-dark .burger-menu .header__bottom-theme--select option {
+  color: #202027;
+}
+@media (min-width:767px) {
+  body.theme-dark .burger-menu .header__bottom-setting:hover,
+body.theme-dark .burger-menu .header__bottom-theme--select:hover {
+    color: #fff;
+  }
+  body.theme-dark .burger-menu .header__bottom-setting:hover i,
+body.theme-dark .burger-menu .header__bottom-theme--select:hover i {
+    transform: scale(1.1);
+    color: #fff;
+  }
+}
+body.theme-dark .attention__card {
+  background-color: #ffa500;
+}
 
 .header {
   position: fixed;
@@ -1069,6 +1104,9 @@ body.theme-dark .main__form-checkbox::before, body.theme-dark .main__form-checkb
   margin-top: 10px;
   max-height: 50px;
 }
+.header__bottom-settings {
+  margin-bottom: 50px;
+}
 .header__bottom-setting {
   background-color: transparent;
   cursor: pointer;
@@ -1076,6 +1114,7 @@ body.theme-dark .main__form-checkbox::before, body.theme-dark .main__form-checkb
   font-size: 18px;
   color: #202027;
   margin-left: 40px;
+  transition: all 0.3s ease;
 }
 @media (max-width:767px) {
   .header__bottom-setting {
@@ -1085,6 +1124,7 @@ body.theme-dark .main__form-checkbox::before, body.theme-dark .main__form-checkb
 }
 .header__bottom-setting i {
   margin-right: 5px;
+  transition: all 0.3s ease;
 }
 @media (min-width:767px) {
   .header__bottom-setting:hover {
@@ -1100,6 +1140,7 @@ body.theme-dark .main__form-checkbox::before, body.theme-dark .main__form-checkb
   background: transparent;
   font-size: 18px;
   cursor: pointer;
+  transition: all 0.3s ease;
 }
 @media (max-width:767px) {
   .header__bottom-setting .header__bottom-theme--select {
@@ -1250,7 +1291,7 @@ body.theme-dark .main__form-checkbox::before, body.theme-dark .main__form-checkb
   right: 0;
   width: auto;
   height: 100vh;
-  background-color: #eee;
+  background-color: #c0c0c0;
   transform: translateX(100%);
   transition: 0.5s ease 0.2s;
   overflow-y: auto;
@@ -1261,6 +1302,7 @@ body.theme-dark .main__form-checkbox::before, body.theme-dark .main__form-checkb
 @media screen and (max-width: 425px) {
   .burger-menu {
     width: 100%;
+    height: 100%;
   }
 }
 .burger-menu._active {
