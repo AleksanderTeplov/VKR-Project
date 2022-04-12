@@ -1,6 +1,5 @@
 <!DOCTYPE html>
 <html lang="ru">
-
 <head>
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -15,127 +14,112 @@
   <link rel="stylesheet" href="css/style.min.css">
 </head>
 
-<body class="page">
+<body>
 
-  <!-- Menu Burger -->
-  <nav class="burger-menu">
-  <div class="burger-menu__close">
-    <button class="burger-menu__close-btn">
-      <i class="fas fa-times"></i>
-    </button>
-  </div>
-  <div class="burger-menu__wrap">
-    <ul class="burger-menu__list">
-      <li class="burger-menu__item">
-        <a class="burger-menu__link" href="index.html">
-          Главная
-        </a>
-      </li>
-      <li class="burger-menu__item">
-        <a class="burger-menu__link" href="services.html">
-          Услуги населению
-        </a>
-      </li>
-      <li class="burger-menu__item">
-        <a class="burger-menu__link" href="appeals.html">
-          Интернет-приемная
-        </a>
-      </li>
-      <li class="burger-menu__item">
-        <a class="burger-menu__link" href="attraction.html">
-          МО
-        </a>
-      </li>
-      <li class="burger-menu__item">
-        <a class="burger-menu__link" href="authority.html">
-          Власть
-        </a>
-      </li>
-      <li class="burger-menu__item">
-        <a class="burger-menu__link" href="leader.html">
-          Глава
-        </a>
-      </li>
-      <li class="burger-menu__item">
-        <a class="burger-menu__link" href="documents.html">
-          Нормотворчество
-        </a>
-      </li>
-      <li class="burger-menu__item">
-        <a class="burger-menu__link" href="news.html">
-          Новости
-        </a>
-      </li>
-      <li class="burger-menu__item">
-        <a class="burger-menu__link" href="pride.html">
-          Наша гордость
-        </a>
-      </li>
-      <li class="burger-menu__item">
-        <a class="burger-menu__link" href="contacts.html">
-          Контакты
-        </a>
-      </li>
-      <li class="burger-menu__item">
-        <a class="burger-menu__link" href="news.html">
-          Новости
-        </a>
-      </li>
-      <li class="burger-menu__item">
-        <a class="burger-menu__link" href="corrupt.html">
-          Противодействие коррупции
-        </a>
-      </li>
-      <li class="burger-menu__item">
-        <a class="burger-menu__link" href="phones.html">
-          Полезные телефоны
-        </a>
-      </li>
-      <li class="burger-menu__item">
-        <a class="burger-menu__link" href="staff.html">
-          Кадровое обеспечение
-        </a>
-      </li>
-      <li class="burger-menu__item">
-        <a class="burger-menu__link" href="munzakaz.html">
-          Муниципальный заказ
-        </a>
-      </li>
-      <li class="burger-menu__item">
-        <a class="burger-menu__link" href="sitemap.html">
-          Карта сайта
-        </a>
-      </li>
-    </ul>
-  </div>
 
-  <div class="header__bottom-settings">
-    <button class="header__bottom-setting header__bottom-vvi" type="button">
-      <i class="fas fa-glasses"></i>
-      <span>Версия для слабовидящих</span>
-    </button>
-    <div class="header__bottom-setting header__bottom-theme">
-      <i class="fas fa-adjust"></i>
-      <select class="header__bottom-theme--select" id="theme">
-        <option value="light">Светлая тема</option>
-        <option value="dark">Темная тема</option>
-      </select>
+    <div class="_page _page-index">
+
+        <div class="burger-menu">
+
+  <button class="burger-menu__close-btn">
+    <i class="fas fa-times"></i>
+  </button>
+ 
+
+  <div class="burger-menu__inner">
+    
+
+    <nav class="burger-menu__nav">
+      <ul class="burger-menu__list">
+
+        <li class="burger-menu__item">
+          <a class="burger-menu__link _active" href="index.html">
+            Главная
+          </a>
+        </li>
+  
+        <li class="burger-menu__item">
+          <a class="burger-menu__link" href="services.html">
+            Услуги населению
+          </a>
+        </li>
+  
+        <li class="burger-menu__item">
+          <a class="burger-menu__link" href="appeals.html">
+            Интернет-приемная
+          </a>
+        </li>
+  
+        <li class="burger-menu__item">
+          <a class="burger-menu__link" href="news.html">
+            Новости
+          </a>
+        </li>
+  
+        <li class="burger-menu__item">
+          <a class="burger-menu__link" href="attantion.html">
+            Объявления
+          </a>
+        </li>
+  
+        
+        <li class="burger-menu__item">
+          <a class="burger-menu__link" href="phones.html">
+            Полезные телефоны
+          </a>
+        </li>
+        
+        <li class="burger-menu__item">
+          <a class="burger-menu__link" href="leader.html">
+            Глава Администрации
+          </a>
+        </li>
+  
+        <li class="burger-menu__item">
+          <a class="burger-menu__link" href="documents.html">
+            Документы
+          </a>
+        </li>
+  
+  
+        <li class="burger-menu__item">
+          <a class="burger-menu__link" href="contacts.html">
+            Контакты
+          </a>
+        </li>
+      </ul>
+    </nav>
+    
+
+
+    <div class="header__bottom-settings">
+      <button class="header__bottom-setting">
+        <img src="img/icons/glasses.svg" alt="glasses">
+        <p>Версия для слабовидящих</p>
+      </button>
+  
+      <button class="header__bottom-setting" id="toogleTheme" >
+        <img src="img/icons/theme.svg" alt="theme">
+        <p><span>Темная</span> тема</p>
+      </button>
     </div>
+  
   </div>
-</nav>
-  <!-- Menu Burger End-->
 
-  <!-- Header -->
-  <header class="header">
+
+
+
+
+  
+</div>
+        <header class="header">
   <div class="container">
     <div class="header__inner">
 
       <a class="logo" href="index.html">
-        <img class="logo-img" src="img/logo.png" alt="logo" loading="lazy">
-        <div class="logo-name__wrap">
-          <span class="logo-name__wrap-item">Официальный сайт администрации</span>
-          <span class="logo-name__wrap-item mid">Курганский сельсовет</span>
-          <span class="logo-name__wrap-item">Свободненский район Амурская область </span>
+        <img class="logo__img" src="img/logo.png" alt="logo" loading="lazy">
+        <div class="logo__sitename">
+          kurgandm
         </div>
       </a>
 
@@ -160,315 +144,486 @@
   </div>
 
 </header>
-  <!-- Header end -->
 
-
-  <main class="main">
-
-    <!-- Intro -->
-    <div class="intro">
-  <div class="intro__wrap">
-    <span class="intro__name intro__name--top">Официальный сайт администрации</span>
-    <span class="intro__name intro__name--middle">Курганский сельсовет</span>
-    <span class="intro__name intro__name--bottom">Свободненский район Амурская область</span>
+        <main class="main">
+            <!-- Intro -->
+            <div class="intro">
+  <div class="intro__images">
+    <img class="_active" src="img/kurgan.jpg" alt="image1">
+    <img class="" src="img/kurgan-2.jpg" alt="image2">
+    <img class="" src="img/kurgan-3.jpg" alt="image3">
   </div>
+
+  <div class="intro__name">
+    <p class="intro__suptitle">Официальный сайт администрации</p>
+    <h1 class="intro__title">Курганский сельсовет</h1>
+    <p class="intro__subtitle">Свободненский район Амурская область</p>
+  </div>
+  
   <div class="intro__arrow">
     <div class="arrow__item"><a href="#about-sec"></a></div>
   </div>
 </div>
-    <!-- Intro end -->
+            <!-- Intro end -->
 
+            <section class="about" id="about-sec">
+                <div class="container">
+                    <div class="about__inner">
 
+                        <div class="about__top-leader _grid-item">
+                            <div class="leader-name">
+                                Клюквина Анна Сергеевна
+                            </div>
+                            <div class="leader-post">
+                                Глава Курганского сельсовета
+                            </div>
+                            <div class="leader-contact">
+                                <i class="fas fa-phone"></i>
+                                <a href="tel:+7(924) 142-16-79">+7(924) 142-16-79</a>
+                            </div>
+                        </div>
 
-    <div class="about" id="about-sec">
-      <div class="container">
+                        <div class="about__top-intelligence _grid-item">
+                            <div class="intelligence">
+                                <div class="intelligence-caption">
+                                    Сведения о МО
+                                </div>
+                                <table class="intelligence-table">
+                                    <tr>
+                                        <td class="table-caption">
+                                            Год образования:
+                                        </td>
+                                        <td class="table-value">
+                                            2012
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td class="table-caption">
+                                            Численность (чел.):
+                                        </td>
+                                        <td class="table-value">
+                                            435
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td class="table-caption">
+                                            Площадь:
+                                        </td>
+                                        <td class="table-value">
+                                            644060000
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td class="table-caption">
+                                            Телефонный код:
+                                        </td>
+                                        <td class="table-value">
+                                            8(41643)
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td class="table-caption">
+                                            Почтовый индекс:
+                                        </td>
+                                        <td class="table-value">
+                                            676434
+                                        </td>
+                                    </tr>
+                                </table>
+                            </div>
+                        </div>
 
-        <div class="about__inner">
+                        <a class="about-references__link about__link _grid-item" href="appeals.html">Обращения</a>
 
-          <div class="about__top-leader _grid-item">
-            <div class="leader-name">
-              Клюквина Анна Сергеевна
-            </div>
-            <div class="leader-post">
-              Глава Курганского сельсовета
-            </div>
-            <div class="leader-contact">
-              <i class="fas fa-phone"></i>
-              +7(924) 142-16-79
-            </div>
-          </div>
+                        <a class="about-services__link about__link _grid-item" href="services.html">Услуги населению</a>
 
-          <div class="about__top-intelligence _grid-item">
-            <div class="intelligence">
-              <div class="intelligence-caption">
-                Сведения о МО
-              </div>
-              <table class="intelligence-table">
-                <tr>
-                  <td class="table-caption">
-                    Год образования:
-                  </td>
-                  <td class="table-value">
-                    2012
-                  </td>
-                </tr>
-                <tr>
-                  <td class="table-caption">
-                    Численность (чел.):
-                  </td>
-                  <td class="table-value">
-                    435
-                  </td>
-                </tr>
-                <tr>
-                  <td class="table-caption">
-                    Площадь:
-                  </td>
-                  <td class="table-value">
-                    644060000
-                  </td>
-                </tr>
-                <tr>
-                  <td class="table-caption">
-                    Телефонный код:
-                  </td>
-                  <td class="table-value">
-                    8(41643)
-                  </td>
-                </tr>
-                <tr>
-                  <td class="table-caption">
-                    Почтовый индекс:
-                  </td>
-                  <td class="table-value">
-                    676434
-                  </td>
-                </tr>
-              </table>
-            </div>
-          </div>
-
-          <a class="about-references__link about__link _grid-item" href="appeals.html">Обращения</a>
-
-          <a class="about-services__link about__link _grid-item" href="services.html">Услуги населению</a>
-
-        </div>
-      </div>
-    </div>
-    </div>
-
-
-    <section class="news">
-      <div class="container">
-        <div class="news__inner">
-          <h3 class="title">
-            Новости Президента РФ
-          </h3>
-
-          <div class="news__wrap">
-            <a class="news__block" href="#">
-              <span class="news__text">
-                Рабочая встреча с главой Минпромторга Денисом Мантуровым
-              </span>
-              <span class="news__date">
-                10.06.2021
-              </span>
-            </a>
-            <a class="news__block" href="#">
-              <span class="news__text">
-                Поздравление Ухнагийн Хурэлсуху с победой на выборах Президента Монголии
-              </span>
-              <span class="news__date">
-                10.06.2021
-              </span>
-            </a>
-            <a class="news__block" href="#">
-              <span class="news__text">
-                Совещание с постоянными членами Совета Безопасности
-              </span>
-              <span class="news__date">
-                11.06.2021
-              </span>
-            </a>
-            <a class="news__block" href="#">
-              <span class="news__text">
-                Вручение медалей Героя Труда и Государственных премий Российской Федерации
-              </span>
-              <span class="news__date">
-                12.06.2021
-              </span>
-            </a>
-            <a class="news__block" href="#">
-              <span class="news__text">
-                Общение с лауреатами Государственных премий и Героями Труда Российской Федерации
-              </span>
-              <span class="news__date">
-                12.06.2021
-              </span>
-            </a>
-            <a class="news__block" href="#">
-              <span class="news__text">
-                Посещение Третьяковской галереи
-              </span>
-              <span class="news__date">
-                12.06.2021
-              </span>
-            </a>
-          </div>
-        </div>
-      </div>
-    </section>
-
-
-    <section class="attention-phones">
-      <div class="container">
-        <div class="attention-phones__inner">
-          <div class="attention">
-            <h3 class="title">
-              Внимание
-            </h3>
-            <a class="attention__card" href="attantion.html">
-              <div class="attention__card-body">
-                <h3 class="attention__card-title">
-                  Объявление!!!
-                </h3>
-                <div class="attention__card-text">
-                  <div class="attention__card-more">
-                    <span class="attention__card-more">
-                      Читать далее...
-                      <i class="fas fa-chevron-right"></i>
-                    </span>
-                  </div>
-                  <div class="attention__card-counter">
-                    <div class="attention__card-counter-wrap">
-                      <span>сегодня</span>
-                      <i class="fas fa-eye attention-eye"></i>
-                      <span class="attention__card-count">1</span>
                     </div>
-                  </div>
                 </div>
-              </div>
-            </a>
-            <a class="attention__card" href="attantion.html">
-              <div class="attention__card-body">
-                <h3 class="attention__card-title">
-                  Объявление!!!
-                </h3>
-                <div class="attention__card-text">
-                  <div class="attention__card-more">
-                    <span class="attention__card-more">
-                      Читать далее...
-                      <i class="fas fa-chevron-right"></i>
-                    </span>
-                  </div>
-                  <div class="attention__card-counter">
-                    <div class="attention__card-counter-wrap">
-                      <span>сегодня</span>
-                      <i class="fas fa-eye attention-eye"></i>
-                      <span class="attention__card-count">3</span>
+            </section>
+
+
+            <section class="news">
+                <div class="container">
+                    <div class="news__inner">
+                        <h3 class="title">
+                            Новости
+                        </h3>
+
+                        <div class="more-btn-container">
+                            <a class="more-btn-three" href="news.html">
+                                Смотреть больше новостей
+                            </a>
+                        </div>
+
+                        <div class="swiper-container">
+                            <div class="swiper-btns">
+                                <button class="news__swiper-button-prev swiper-btn swiper-prev-btn">
+                                    <img src="img/icons/slide-left.svg" alt="left">
+                                </button>
+                                <button class="news__swiper-button-next swiper-btn swiper-next-btn">
+                                    <img src="img/icons/slide-right.svg" alt="right">
+                                </button>
+                            </div>
+
+
+
+                            <div class="news__swiper swiper">
+
+
+                                <div class="news__swiper-wrapper swiper-wrapper">
+
+                                    <div class="news__item swiper-slide">
+                                        <a class="news__item-image" href="single-news.html">
+                                            <img src="img/news-1.jpg" alt="image">
+                                        </a>
+                                        <div class="news__item-inner">
+                                            <p class="news__item-date">
+                                                10.06.2021
+                                            </p>
+                                            <h4 class="news__item-title">
+                                                Рабочая встреча с главой Минпромторга Денисом Мантуровым
+                                            </h4>
+                                            <p class="news__item-text">
+                                                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Pariatur,
+                                                error!
+
+                                            </p>
+                                            <a class="news__item-btn more-btn" href="single-news.html">
+                                                Подробнее
+                                            </a>
+                                        </div>
+
+                                    </div>
+
+                                    <div class="news__item swiper-slide">
+                                        <a class="news__item-image" href="single-news.html">
+                                            <img src="img/news-1.jpg" alt="image">
+                                        </a>
+                                        <div class="news__item-inner">
+                                            <p class="news__item-date">
+                                                10.06.2021
+                                            </p>
+                                            <h4 class="news__item-title">
+                                                Рабочая встреча с главой Минпромторга Денисом Мантуровым
+                                            </h4>
+                                            <p class="news__item-text">
+                                                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Pariatur,
+                                                error!
+
+                                            </p>
+                                            <a class="news__item-btn more-btn" href="single-news.html">
+                                                Подробнее
+                                            </a>
+                                        </div>
+
+                                    </div>
+
+                                    <div class="news__item swiper-slide">
+                                        <a class="news__item-image" href="single-news.html">
+                                            <img src="img/news-1.jpg" alt="image">
+                                        </a>
+                                        <div class="news__item-inner">
+                                            <p class="news__item-date">
+                                                10.06.2021
+                                            </p>
+                                            <h4 class="news__item-title">
+                                                Рабочая встреча с главой Минпромторга Денисом Мантуровым
+                                            </h4>
+                                            <p class="news__item-text">
+                                                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Pariatur,
+                                                error!
+
+                                            </p>
+                                            <a class="news__item-btn more-btn" href="single-news.html">
+                                                Подробнее
+                                            </a>
+                                        </div>
+
+                                    </div>
+
+
+                                    <div class="news__item swiper-slide">
+                                        <a class="news__item-image" href="single-news.html">
+                                            <img src="img/news-1.jpg" alt="image">
+                                        </a>
+                                        <div class="news__item-inner">
+                                            <p class="news__item-date">
+                                                10.06.2021
+                                            </p>
+                                            <h4 class="news__item-title">
+                                                Рабочая встреча с главой Минпромторга Денисом Мантуровым
+                                            </h4>
+                                            <p class="news__item-text">
+                                                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Pariatur,
+                                                error!
+
+                                            </p>
+                                            <a class="news__item-btn more-btn" href="single-news.html">
+                                                Подробнее
+                                            </a>
+                                        </div>
+
+                                    </div>
+
+
+                                    <div class="news__item swiper-slide">
+                                        <a class="news__item-image" href="single-news.html">
+                                            <img src="img/news-1.jpg" alt="image">
+                                        </a>
+                                        <div class="news__item-inner">
+                                            <p class="news__item-date">
+                                                10.06.2021
+                                            </p>
+                                            <h4 class="news__item-title">
+                                                Рабочая встреча с главой Минпромторга Денисом Мантуровым
+                                            </h4>
+                                            <p class="news__item-text">
+                                                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Pariatur,
+                                                error!
+
+                                            </p>
+                                            <a class="news__item-btn more-btn" href="single-news.html">
+                                                Подробнее
+                                            </a>
+                                        </div>
+
+                                    </div>
+
+
+                                    <div class="news__item swiper-slide">
+                                        <a class="news__item-image" href="single-news.html">
+                                            <img src="img/news-1.jpg" alt="image">
+                                        </a>
+                                        <div class="news__item-inner">
+                                            <p class="news__item-date">
+                                                10.06.2021
+                                            </p>
+                                            <h4 class="news__item-title">
+                                                Рабочая встреча с главой Минпромторга Денисом Мантуровым
+                                            </h4>
+                                            <p class="news__item-text">
+                                                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Pariatur,
+                                                error!
+
+                                            </p>
+                                            <a class="news__item-btn more-btn" href="single-news.html">
+                                                Подробнее
+                                            </a>
+                                        </div>
+
+                                    </div>
+
+
+
+                                </div>
+
+                            </div>
+                        </div>
+
                     </div>
-                  </div>
                 </div>
-              </div>
-            </a>
-            <a class="attention__card" href="attantion.html">
-              <div class="attention__card-body">
-                <h3 class="attention__card-title">
-                  Объявление!!!
-                </h3>
-                <div class="attention__card-text">
-                  <div class="attention__card-more">
-                    <span class="attention__card-more">
-                      Читать далее...
-                      <i class="fas fa-chevron-right"></i>
-                    </span>
-                  </div>
-                  <div class="attention__card-counter">
-                    <div class="attention__card-counter-wrap">
-                      <span>сегодня</span>
-                      <i class="fas fa-eye attention-eye"></i>
-                      <span class="attention__card-count">2</span>
+            </section>
+
+
+
+            <section class="attention">
+                <div class="container">
+                    <div class="attantion__inner">
+                        <h3 class="title">
+                            Объявления
+                        </h3>
+
+                        <div class="more-btn-container">
+                            <a class="more-btn-three" href="attantion.html">
+                                Смотреть еще
+                            </a>
+                        </div>
+
+
+                        <div class="swiper-container">
+
+                            <div class="swiper-btns">
+                                <button class="attention__swiper-button-prev swiper-btn swiper-prev-btn">
+                                    <img src="img/icons/slide-left.svg" alt="left">
+                                </button>
+                                <button class="attention__swiper-button-next swiper-btn swiper-next-btn">
+                                    <img src="img/icons/slide-right.svg" alt="right">
+                                </button>
+                            </div>
+
+
+
+
+                            <div class="attention__swiper swiper">
+                                <div class="attention__swiper-wrapper swiper-wrapper">
+
+                                    <a class="attention__card swiper-slide" href="attantion.html">
+                                        <img src="img/attantion.png" alt="">
+
+                                        <div class="attention__card-body">
+                                            <div class="attention__card-inner">
+                                                <h3 class="attention__card-title">
+                                                    Внимание Внимание это заголовок
+                                                </h3>
+                                                <div class="attention__card-counter">
+                                                    <span>Просмотров</span>
+                                                    <i class="fas fa-eye attention-eye"></i>
+                                                    <span class="attention__card-count">1</span>
+                                                </div>
+                                                <div class="attention__card-more more-btn">
+                                                    Подробнее
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </a>
+
+                                    <a class="attention__card swiper-slide" href="attantion.html">
+                                        <img src="img/attantion.png" alt="">
+
+                                        <div class="attention__card-body">
+                                            <div class="attention__card-inner">
+                                                <h3 class="attention__card-title">
+                                                    Внимание Заголовок
+                                                </h3>
+                                                <div class="attention__card-counter">
+                                                    <span>Просмотров</span>
+                                                    <i class="fas fa-eye attention-eye"></i>
+                                                    <span class="attention__card-count">1</span>
+                                                </div>
+                                                <div class="attention__card-more more-btn">
+                                                    Подробнее
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </a>
+
+                                    <a class="attention__card swiper-slide" href="attantion.html">
+                                        <img src="img/attantion.png" alt="">
+
+                                        <div class="attention__card-body">
+                                            <div class="attention__card-inner">
+                                                <h3 class="attention__card-title">
+                                                    Внимание Внимание тут находится текст важной для вас информации
+                                                </h3>
+                                                <div class="attention__card-counter">
+                                                    <span>Просмотров</span>
+                                                    <i class="fas fa-eye attention-eye"></i>
+                                                    <span class="attention__card-count">1</span>
+                                                </div>
+                                                <div class="attention__card-more more-btn">
+                                                    Подробнее
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </a>
+
+                                    <a class="attention__card swiper-slide" href="attantion.html">
+                                        <img src="img/attantion.png" alt="">
+
+                                        <div class="attention__card-body">
+                                            <div class="attention__card-inner">
+                                                <h3 class="attention__card-title">
+                                                    Lorem, ipsum dolor.!!!
+                                                </h3>
+                                                <div class="attention__card-counter">
+                                                    <span>Просмотров</span>
+                                                    <i class="fas fa-eye attention-eye"></i>
+                                                    <span class="attention__card-count">1</span>
+                                                </div>
+                                                <div class="attention__card-more more-btn">
+                                                    Подробнее
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </a>
+
+
+                                </div>
+                            </div>
+
+
+                        </div>
+
                     </div>
-                  </div>
                 </div>
-              </div>
-            </a>
-
-          </div>
+            </section>
 
 
-          <div class="phones">
-            <h3 class="title">
-              Телефоны Экстренных служб
-            </h3>
-            <table class="table-phones">
-              <tr>
-                <td class="table-phones__caption">
-                  Единая Дежурная диспетчерская служба
-                </td>
-                <td class="table-phones__value">
-                  84164333737
-                </td>
-              </tr>
-              <tr>
-                <td class="table-phones__caption">
-                  Полиция
-                </td>
-                <td class="table-phones__value">
-                  102
-                </td>
-              </tr>
-              <tr>
-                <td class="table-phones__caption">
-                  Единая служба спасения
-                </td>
-                <td class="table-phones__value">
-                  101
-                </td>
-              </tr>
-              <tr>
-                <td class="table-phones__caption">
-                  Скорая помощь
-                </td>
-                <td class="table-phones__value">
-                  103
-                </td>
-              </tr>
-              <tr>
-                <td class="table-phones__caption">
-                  Газовая служба
-                </td>
-                <td class="table-phones__value">
-                  104
-                </td>
-              </tr>
-              <tr>
-                <td class="table-phones__caption">
-                  Оперативный дежурный управления по делам ГО ЧС
-                </td>
-                <td class="table-phones__value">
-                  202-112
-                </td>
-              </tr>
-              <tr>
-                <td class="table-phones__caption">
-                  ГИБДД
-                </td>
-                <td class="table-phones__value">
-                  42-52-62
-                </td>
-              </tr>
-            </table>
-          </div>
-        </div>
-      </div>
-    </section>
+            <section class="phones">
+                <div class="container">
+                    <div class="phones__inner">
+                        <h3 class="title">
+                            Телефоны Экстренных служб
+                        </h3>
+                        <table class="table-phones">
+                            <tr>
+                                <td class="table-phones__caption">
+                                    Единая Дежурная диспетчерская служба
+                                </td>
+                                <td class="table-phones__value">
+                                    84164333737
+                                </td>
+                            </tr>
+                            <tr>
+                                <td class="table-phones__caption">
+                                    Полиция
+                                </td>
+                                <td class="table-phones__value">
+                                    102
+                                </td>
+                            </tr>
+                            <tr>
+                                <td class="table-phones__caption">
+                                    Единая служба спасения
+                                </td>
+                                <td class="table-phones__value">
+                                    101
+                                </td>
+                            </tr>
+                            <tr>
+                                <td class="table-phones__caption">
+                                    Скорая помощь
+                                </td>
+                                <td class="table-phones__value">
+                                    103
+                                </td>
+                            </tr>
+                            <tr>
+                                <td class="table-phones__caption">
+                                    Газовая служба
+                                </td>
+                                <td class="table-phones__value">
+                                    104
+                                </td>
+                            </tr>
+                            <tr>
+                                <td class="table-phones__caption">
+                                    Оперативный дежурный управления по делам ГО ЧС
+                                </td>
+                                <td class="table-phones__value">
+                                    202-112
+                                </td>
+                            </tr>
+                            <tr>
+                                <td class="table-phones__caption">
+                                    ГИБДД
+                                </td>
+                                <td class="table-phones__value">
+                                    42-52-62
+                                </td>
+                            </tr>
+                        </table>
+                    </div>
+                </div>
+            </section>
 
-
-    <!-- sponsors -->
-    <div class="sponsors">
+            <section class="sponsors">
   <div class="container">
     <div class="sponsors__inner">
+      <h3 class="title">
+        Наши партнеры
+      </h3>
+
       <div class="sponsors__slider-container swiper">
         <div class="sponsors__slider-wrapper swiper-wrapper">
 
@@ -502,17 +657,14 @@
 
         </div>
       </div>
+      
     </div>
   </div>
-</div>
-    <!-- sponsors END-->
+</section>
+        
+        </main>
 
-  </main>
-
-
-
-  <!-- FOOTER -->
-  <footer class="footer">
+        <footer class="footer">
   <div class="container">
     <div class="footer__inner">
       <div class="footer__top">
@@ -537,11 +689,9 @@
         </div>
         <div class="footer__logo">
           <a class="logo" href="index.html">
-            <img class="logo-img" src="img/logo.png" alt="logo" loading="lazy">
-            <div class="logo-name__wrap">
-              <span class="logo-name__wrap-item">Официальный сайт администрации</span>
-              <span class="logo-name__wrap-item mid">Курганский сельсовет</span>
-              <span class="logo-name__wrap-item">Свободненский район Амурская область </span>
+            <img class="logo__img" src="img/logo.png" alt="logo" loading="lazy">
+            <div class="logo__sitename">
+              kurgandm
             </div>
           </a>
         </div>
@@ -549,13 +699,20 @@
       <div class="footer__copiright">
         <span>2022 &copy; Администрация Курганского сельсовета. Все права защищены.</span>
       </div>
+
+      <a class="footer__created" href="https://www.instagram.com/aleksnikol.portfolio/">
+        Created by <span>Aleksandr Teplov</span>
+      </a>
+
     </div>
   </div>
 </footer>
-  <!-- FOOTER END-->
+    </div>
 
 
-  <script src="js/app.min.js"></script>
+    <script src="js/app.min.js"></script>
 </body>
+
+</html>
 
 </html>
